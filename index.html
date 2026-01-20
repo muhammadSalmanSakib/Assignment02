@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechWave</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <!-- header -->
+  <header class="header" id="top">
+    <!-- navigation -->
+    <nav class="nav container">
+      <!-- logo -->
+      <a class="logo" href="#top">
+        <span class="logo-name">Tech<span class="logo-color">Wave</span></span>
+      </a>
+
+      <!-- menu -->
+      <ul class="menu" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#episodes">Episodes</a></li>
+        <li><a href="#host">Host</a></li>
+      </ul>
+
+      <!-- button -->
+      <a class="btn btn-main" href="#episodes">Subscribe →</a>
+
+      <!-- mobile menu button -->
+      <button class="menu-btn" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- mobile menu -->
+    <div class="mobile-menu container" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#episodes">Episodes</a>
+      <a href="#host">Host</a>
+      <a class="btn btn-main full" href="#episodes">Subscribe →</a>
+    </div>
+
+    <!--hero-section-->
+    <section class="hero">
+      <div class="container hero-main">
+        <div class="circle-box">
+          <img class="mic" src="assets/microphone.png" alt="microphone">
+          <img class="circle-img" src="assets/hero-circle.png" alt="Podcast Circle" />
+          <span class="new-badge">NEW</span>
+        </div>
+
+        <h1 class="hero-title">Tech<span class="logo-color">Wave</span></h1>
+        <p class="hero-text">
+          Your daily dose of tech insights, productivity hacks, and personal growth.
+        </p>
+
+        <div class="hero-btns">
+          <!-- Spotify button -->
+          <a class="btn btn-spotify" href="#episodes">
+            <span class="btn-icon">
+              <img src="assets/spotify.png" alt="">
+            </span>
+            <span>Listen On Spotify</span>
+          </a>
+
+          <!-- subscribe button -->
+          <a class="btn btn-subscribe" href="#episodes">
+            <span class="btn-icon">
+              <img src="assets/message.png" alt="">
+            </span>
+            <span>Subscribe</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+</body>
+</html>
